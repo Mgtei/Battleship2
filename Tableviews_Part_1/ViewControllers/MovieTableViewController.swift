@@ -14,7 +14,7 @@ class MovieTableViewController: UITableViewController {
 
     internal let rawMovieData: [[String : Any]] = movies
     let cellIdentifier: String = "MovieTableViewCell"
-    
+    enum Century: Int {case twentieth, twentyfirst }
     enum Genre: Int {
         case animation
         case action
